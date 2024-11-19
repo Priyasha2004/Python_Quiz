@@ -18,16 +18,16 @@ File handling is an essential technique in many educational software systems, es
 1. DATA STRUCTURES :
 Data Strcutures such as lists are used to store answers to quiz questions.
 2. FILE HANDLING :
-The File Handling component is the backbone of the system. The quiz reads questions from text files and writes the user details in text files to store it.
-• Question bank file - Three files containing questions of each DBMS, DSA and Python.
+The File Handling component is the backbone of the system. The quiz reads questions from text files and writes the user details in text files to store it.<br>
+• Question bank file - Three files containing questions of each DBMS, DSA and Python.<br>
 • User details - A file storing user credentials during registration.
 4. IMPLEMENTATION :
 The quiz is implemented in Python, utilizing file operations such as reading (open(), read(), readlines()) and writing (write(), writelines()) to interact with text files.
-Key functions implemented include:
-‣ register() - To register user and his/her details.
-‣ login() - To check login credentials of user.
-‣ attemptquiz() - To attempt quiz.
-‣ showresult() - To calculate quiz result.
+Key functions implemented include:<br>
+‣ register() - To register user and his/her details.<br>
+‣ login() - To check login credentials of user.<br>
+‣ attemptquiz() - To attempt quiz.<br>
+‣ showresult() - To calculate quiz result.<br>
 ‣ exit() - To exit from quiz.
 # Conclusion
 In conclusion, this research demonstrates the utility of file handling in building an interactive, scalable quiz system for evaluating knowledge in computer science subjects. By using Python’s built-in file handling capabilities, the system offers a simple yet effective solution for storing and retrieving quiz data.
