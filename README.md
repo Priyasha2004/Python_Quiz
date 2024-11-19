@@ -21,7 +21,7 @@ Data Strcutures such as lists are used to store answers to quiz questions.
 The File Handling component is the backbone of the system. The quiz reads questions from text files and writes the user details in text files to store it.
 • Question bank file - Three files containing questions of each DBMS, DSA and Python.
 • User details - A file storing user credentials during registration.
-3. IMPLEMENTATION :
+4. IMPLEMENTATION :
 The quiz is implemented in Python, utilizing file operations such as reading (open(), read(), readlines()) and writing (write(), writelines()) to interact with text files.
 Key functions implemented include:
 ‣ register() - To register user and his/her details.
